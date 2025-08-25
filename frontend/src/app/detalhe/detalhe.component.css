@@ -1,0 +1,53 @@
+.product-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  h2 {
+    font-size: 25px;
+    color: #000;
+    text-align: left;
+    
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+    margin-left: 10px; 
+  }
+  
+ 
+  img {
+    max-width: 350px; 
+    height: auto;
+    margin-right: 10px; 
+  }
+  
+
+  .valor {
+    font-size: 16px;
+    color: #666;
+  }
+  
+
+  .promo {
+    font-size: 22px;
+    color: #f00;
+  }
+  
+
+  button {
+    padding: 10px 20px;
+    background-color: #777;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  
+  h3 {
+    color: #f00;
+  }
+  

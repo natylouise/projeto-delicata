@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dellicata</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+  <header>
+    <div class="logo">
+        <img src="./assets/Logo.png.png" alt="Logo da Empresa"  onclick="window.location.href='./vitrine';">
+    </div>
+    
+    <nav>
+        <ul class="menu">
+            <li><a href="./vitrine" >Home</a></li>
+            <li><a href="./vitrine">Aneis</a></li>
+            <li><a href="./vitrine">Pulseiras</a></li>
+            <li><a href="./vitrine">Colar</a></li>
+            <li><a href="./vitrine">Berloques</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="buttons">
+      <button class="btn-login" onclick="window.location.href='./login';">Login</button>
+      <button class="btn-carrinho" onclick="window.location.href='./carrinho';">Carrinho</button>
+    </div>
+
+    <div class="lupa">
+      <img src="./assets/iconelupa.png.png" alt="Icone Lupa" onclick="window.location.href='./pesquisa';">
+  </div>
+  </header> 
+
+
+  <br>
+  
+
+
+<br>
+
+
+
+      
+  <!--<div class="container">-->
+    
+  <app-root></app-root>
+  </div>
+
+  <footer style="background-color: #f1f1f1; padding: 20px; text-align: center; margin-top: 50px;">
+    <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <div style="flex: 1; min-width: 250px; margin: 10px;">
+            <h4>Sobre Nós</h4>
+            <p>Somos uma loja especializada em semijoias de alta qualidade, oferecendo uma ampla variedade de produtos para todos os gostos e ocasiões.</p>
+        </div>
+        <!--<div style="flex: 1; min-width: 250px; margin: 10px;">
+            <h4>Links Úteis</h4>
+            <ul style="list-style-type: none; padding: 0;">
+                <li><a href="Home">Home</a></li>
+                <li><a href="Anel">Anel</a></li>
+                <li><a href="Pulseira">Pulseira</a></li>
+                <li><a href="Colar">Colar</a></li>
+                <li><a href="Berloque">Berloques</a></li>
+            </ul>
+        </div>-->
+        <div style="flex: 1; min-width: 250px; margin: 10px;">
+            <h4>Contato</h4>
+            <p>Email: contato@delicatajoias.com</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>Endereço: Rua das Flores, 123 - São Paulo, SP</p>
+        </div>
+    </div>
+    <p style="margin-top: 20px;">&copy; 2024 Loja de Joias. Todos os direitos reservados.</p>
+  </footer>
+  
+</body>
+</html>

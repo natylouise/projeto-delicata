@@ -1,0 +1,30 @@
+<h1>Carrinho de compras</h1>
+<div class="alert alert-warning" *ngIf="mensagem!=''">
+    {{mensagem}}
+</div>
+<table class="table" *ngIf="lista.length>0">
+<thead>
+    <tr><th>Produto</th>
+    <th>Qtd</th>
+    <th>Valor Unitário</th>
+    <th>Valor Total</th></tr>
+</thead>  
+<tbody>
+<tr *ngFor="let item of lista" >
+    <td>{{item.nomeProduto}}</td>
+    <td>{{item.qtd}}</td>
+    <td>R$ {{item.valor}}</td>
+    <td>R$ {{item.total}}</td>
+</tr>
+</tbody>
+<tfoot>
+    <tr>
+        <th>Total:</th><th></th><th></th>
+        <th >R$ {{totalCarrinho}}</th>
+    </tr>
+</tfoot>
+</table>
+
+<button class="btn btn-danger" (click)="limpar();">Limpar Carrinho</button>
+<button class="btn btn-danger" (click)="finalizar();">Finalizar</button>
+

@@ -1,0 +1,44 @@
+
+
+    <div class="container">
+        <h2>Cadastro</h2>
+        <div class="alert alert-info">{{mensagem}}</div>
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" [(ngModel)]="obj.nome" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" [(ngModel)]="obj.email" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" [(ngModel)]="obj.telefone" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="documento">Documento:</label>
+            <input type="text" id="documento" [(ngModel)]="obj.documento" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" [(ngModel)]="obj.cep" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" [(ngModel)]="obj.cidade" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" [(ngModel)]="obj.estado" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="logradouro">Logradouro:</label>
+            <input type="text" id="logradouro" [(ngModel)]="obj.logradouro" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="complemento">Complemento:</label>
+            <input type="text" id="complemento" [(ngModel)]="obj.complemento" class="form-control">
+        </div>
+        <button (click)="gravar()" class="btn btn-success">Gravar</button>
+    </div>
+

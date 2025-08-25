@@ -1,0 +1,19 @@
+<div class="login-container">
+    <h2>Acesso ao sistema</h2>
+    <h4>{{mensagem}}</h4>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="text" id="email" [(ngModel)]="obj.email">
+    </div>
+    <div class="form-group">
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha">
+    </div>
+    <button class="btn-entrar" (click)="entrar()">Entrar</button>
+    <div class="additional-links">
+      
+      <a href="./esqueci">Esqueci minha senha</a>
+      <a href="./cadastro">Novo Cadastro</a>
+    </div>
+  </div>
+  

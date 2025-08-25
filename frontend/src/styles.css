@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  
+   
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ddddddbb;
+    color: #ffffff;
+}
+
+.logo img {
+    height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #9b9595;
+    border-radius: 4px;
+}
+
+.lupa img {
+    margin-right: 50px;
+    height: 35px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: #888787;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item-left {
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    flex: 50%;
+  }
+  
+  
+    
+  
+
